@@ -1,6 +1,8 @@
 package com.atvouz.pokedx.repository
 
 import com.atvouz.pokedx.data.remote.PokeApi
+import com.atvouz.pokedx.data.remote.responses.Pokemon
+import com.atvouz.pokedx.data.remote.responses.PokemonList
 import com.atvouz.pokedx.util.Resource
 import dagger.hilt.android.scopes.ActivityScoped
 import javax.inject.Inject
